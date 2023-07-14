@@ -1,0 +1,62 @@
+.Footer {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+.Footer button {
+	border: 3px solid black;
+	border-radius: 5px;
+}
+.Footer button:hover {
+	color: black;
+	border: 3px solid black;
+	font-weight: 700;
+}
+
+.Footer .home-btn {
+	color: red;
+	font-weight: 600;
+	border: 3px solid red;
+}
+
+.Footer .news-btn {
+	color: rgb(255, 123, 0);
+	border: 3px solid rgb(255, 123, 0);
+	font-weight: 600;
+	/* border-left: 3px solid black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black; */
+}
+.Footer .shop-btn {
+	color: rgb(233, 182, 41);
+	border: 3px solid rgb(233, 182, 41);
+	font-weight: 600;
+	/* border-left: 3px solid black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black; */
+}
+.Footer .contact-btn {
+	color: rgb(144, 208, 18);
+	border: 3px solid rgb(144, 208, 18);
+	font-weight: 600;
+	/* border-left: 3px solid black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black; */
+}
+.Footer .map-btn {
+	color: rgb(59, 59, 181);
+	border: 3px solid rgb(59, 59, 181);
+	font-weight: 600;
+	/* border-left: 3px solid black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black; */
+}
+.Footer .donate-btn {
+	color: purple;
+	border: 3px solid purple;
+	font-weight: 600;
+	/* border-right: 3px solid black;
+	border-left: 3px solid black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black; */
+}

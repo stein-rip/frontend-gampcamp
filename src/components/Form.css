@@ -1,0 +1,18 @@
+.Form {
+	margin-top: 10px;
+	background-color: white;
+	margin: 50px;
+	border: 5px solid black;
+}
+
+.Form div.submit {
+	display: flex;
+	justify-content: right;
+	padding: 10px;
+}
+
+.Form button {
+	color: white;
+	background-color: black;
+	padding: 5px;
+}

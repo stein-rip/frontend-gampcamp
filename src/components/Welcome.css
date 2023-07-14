@@ -1,0 +1,6 @@
+.Welcome img .Hearts {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	background-size: 100vw;
+}

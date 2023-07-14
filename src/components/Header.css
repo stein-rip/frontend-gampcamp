@@ -1,0 +1,20 @@
+/* .Header {
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+
+.Header button {
+	border: 3px solid black;
+	border-radius: 5px;
+	color: black;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 600;
+}
+
+.Header div .SignInOut {
+	display: flex;
+} */

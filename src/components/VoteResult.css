@@ -1,0 +1,32 @@
+.VoteResult {
+	margin: 0;
+	width: 50vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+}
+
+.VoteResult p {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+.VoteResult div.row-1,
+div.row-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 20px;
+	margin: 10px;
+}
+
+.VoteResult div .npc {
+	border: 8px solid black;
+	height: 60px;
+	width: 60px;
+	border-radius: 50px;
+	padding: 20px;
+	margin: 10px;
+}
