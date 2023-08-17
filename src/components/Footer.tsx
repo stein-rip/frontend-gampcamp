@@ -44,28 +44,24 @@ const Footer = () => {
 			<nav>
 				<ul>
 					<li>
-						<button className="home-btn" onClick={navigateHome}>
-							Members
-						</button>
-					</li>
-					<li>
 						<button className="news-btn" onClick={navigateNews}>
-							News
+							PRESS
 						</button>
 					</li>
 					<li>
 						<button className="shop-btn" onClick={navigateShop}>
-							Shop
+							SHOP
 						</button>
 					</li>
 					<li>
-						<button className="contact-btn" onClick={navigateContact}>
-							Info
+						<button className="home-btn" onClick={navigateHome}>
+							ABOUT
 						</button>
 					</li>
+
 					<li>
 						<button className="donate-btn" onClick={navigateDonate}>
-							Donate
+							SUPPORT
 						</button>
 					</li>
 				</ul>

@@ -1,8 +1,12 @@
 .NewsCard {
 	border: 2px solid black;
-	height: 18vh;
+	height: 100vh;
+	width: 100vw;
 	display: flex;
 	align-items: center;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
 }
 
 .NewsCard img {
