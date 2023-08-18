@@ -8,6 +8,7 @@ import Donate from "./Donate";
 import "./Footer.css";
 import Join from "./Join";
 import About from "./About";
+import Connect from "./Connect";
 
 const Footer = () => {
 	const navigate = useNavigate();
@@ -36,6 +37,10 @@ const Footer = () => {
 		// 👇️ navigate to /
 		navigate("/join");
 	};
+	const navigateConnect = () => {
+		// 👇️ navigate to /
+		navigate("/connect");
+	};
 	return (
 		<div className="Footer">
 			<nav>
@@ -61,6 +66,11 @@ const Footer = () => {
 							JOIN
 						</button>
 					</li>
+					<li>
+						<button className="join-btn" onClick={navigateConnect}>
+							CONNECT
+						</button>
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -73,4 +83,5 @@ export default Footer;
 	<Route path="/donate" element={<Join />} />
 	<Route path="/donate" element={<Donate />} />
 	<Route path="/profile" element={<About />} />
+	<Route path="/connect" element={<Connect />} />
 </Routes>;

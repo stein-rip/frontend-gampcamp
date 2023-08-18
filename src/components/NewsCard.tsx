@@ -40,7 +40,7 @@ const NewsCard = () => {
 					src="https://images.radio.com/aiu-media/IMG0372-f9a42a28-440d-473d-bce4-cf4a8561b843.jpg?width=800"
 					alt="React Image"
 				/>
-				<h6>Eric Seals, Detroit Free Press</h6>
+				<h6></h6>
 				<a
 					target="_blank"
 					rel="noopener noreferrer"

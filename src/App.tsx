@@ -13,6 +13,7 @@ import NewsCard from "./components/NewsCard";
 import Donate from "./components/Donate";
 import Join from "./components/Join";
 import About from "./components/About";
+import Connect from "./components/Connect";
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 					<Route path="/join" element={<Join />} />
 					<Route path="/newscard" element={<NewsCard />} />
 					<Route path="/donate" element={<Donate />} />
+					<Route path="/connect" element={<Connect />} />
 				</Routes>
 				{/* <Footer /> */}
 			</Router>

@@ -1,7 +1,7 @@
 .Join {
 	position: absolute;
 	top: 60px;
-	background-color: rgb(146, 249, 72);
+	background-color: rgb(89, 86, 86);
 	height: 80vh;
 	width: 95vw;
 	display: flex;
@@ -9,6 +9,7 @@
 	align-items: center;
 	justify-content: center;
 	border: 5px solid black;
+	color: black;
 	border-radius: 12px;
 }
 .Join header {
@@ -35,11 +36,12 @@
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	top: 550px;
+	top: 650px;
 	height: 35px;
 	width: 200px;
 	background-color: hotpink;
 	border: 5px solid black;
+	border-radius: 12px;
 	text-decoration: none;
 	color: black;
 	font-weight: 600;
