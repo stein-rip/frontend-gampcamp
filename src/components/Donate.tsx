@@ -12,7 +12,7 @@ const Donate = () => {
 				<h3>There are many ways you can support our work.</h3>
 			</header>
 			<div className="Options">
-				<div className="Givebutter">
+				<div>
 					<a
 						className="Givebutter"
 						target="_blank"
@@ -21,7 +21,7 @@ const Donate = () => {
 						Donate
 					</a>
 				</div>
-				<div className="Shop">
+				<div>
 					<a
 						className="Shop"
 						target="_blank"
@@ -30,7 +30,7 @@ const Donate = () => {
 						Shop
 					</a>
 				</div>
-				<div className="WishList">
+				<div>
 					<a
 						className="WishList"
 						target="_blank"
