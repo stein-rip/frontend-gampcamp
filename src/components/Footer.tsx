@@ -49,11 +49,6 @@ const Footer = () => {
 						</button>
 					</li>
 					<li>
-						<button className="shop-btn" onClick={navigateShop}>
-							SHOP
-						</button>
-					</li>
-					<li>
 						<button className="home-btn" onClick={navigateHome}>
 							ABOUT
 						</button>

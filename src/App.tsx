@@ -16,7 +16,6 @@ import Contact from "./components/Contact";
 function App() {
 	return (
 		<div className="App">
-			<p>© 2023 Gamp Camp</p>
 			<Router>
 				<Routes>
 					<Route path="/" element={<Home />} />

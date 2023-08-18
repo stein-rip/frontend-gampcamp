@@ -1,9 +1,16 @@
 .Home {
 	position: absolute;
-	/* background-color: white; */
+
 	top: 30px;
 	margin: 0;
 	padding: 0;
+	border: 10px solid black;
+	border-radius: 50px;
 	width: 80vw;
-	height: 90vh;
+	height: 80vh;
+}
+
+.Home .Gc {
+	display: flex;
+	justify-content: center;
 }
