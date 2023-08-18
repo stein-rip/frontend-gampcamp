@@ -1,10 +1,10 @@
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Profile from "./Profile";
-import Home from "./ShoutHome";
+
 import NewsCard from "./NewsCard";
-import Contact from "./Contact";
+
 import Donate from "./Donate";
-import Shop from "./Shop";
+
 import "./Footer.css";
 
 const Footer = () => {
@@ -67,10 +67,8 @@ const Footer = () => {
 
 export default Footer;
 <Routes>
-	<Route path="/home" element={<Home />} />
 	<Route path="/newscard" element={<NewsCard />} />
-	<Route path="/contact" element={<Contact />} />
-	<Route path="/shop" element={<Shop />} />
+
 	<Route path="/donate" element={<Donate />} />
 	<Route path="/profile" element={<Profile />} />
 </Routes>;

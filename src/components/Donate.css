@@ -12,13 +12,13 @@
 
 .Donate header h3 {
 	margin-left: 20px;
-	padding-top: 50px;
+	padding-top: 10px;
 }
 
 .Donate .Options {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 30vh;
+	margin-top: 10vh;
 }
 
 .Donate .Givebutter {
