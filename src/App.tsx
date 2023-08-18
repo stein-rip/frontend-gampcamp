@@ -11,16 +11,19 @@ import Profile from "./components/Profile";
 
 import NewsCard from "./components/NewsCard";
 import Donate from "./components/Donate";
+import Join from "./components/Join";
+import About from "./components/About";
 
 function App() {
 	return (
 		<div className="App">
 			<Router>
 				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="*" element={<Profile />} />
 					<Route path="*" element={<Navigate to="/" />} />
-
+					<Route path="/" element={<Home />} />
+					<Route path="/profile" element={<Profile />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/join" element={<Join />} />
 					<Route path="/newscard" element={<NewsCard />} />
 					<Route path="/donate" element={<Donate />} />
 				</Routes>

@@ -1,0 +1,17 @@
+.About {
+	background-color: white;
+	height: 90vh;
+	width: 100vw;
+	position: absolute;
+	top: 20px;
+	border: 5px solid black;
+}
+.About h1 {
+	font-size: 24px;
+	margin-left: 2px;
+}
+
+.About .WhoWhatWhy {
+	font-size: smaller;
+	margin: 10px;
+}

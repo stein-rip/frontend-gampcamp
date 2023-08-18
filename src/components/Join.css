@@ -1,0 +1,46 @@
+.Join {
+	position: absolute;
+	top: 60px;
+	background-color: rgb(146, 249, 72);
+	height: 80vh;
+	width: 95vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 5px solid black;
+	border-radius: 12px;
+}
+.Join header {
+	width: 90vw;
+	font-size: small;
+}
+.Join h4 {
+	font-size: 10px;
+	width: 70vw;
+}
+.Join div.VestImage {
+	background-image: url(../assets/vest.webp);
+	height: 250px;
+	width: 250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgb(210, 185, 219);
+	border: 5px solid black;
+	border-radius: 12px;
+}
+
+.Join .Connect {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 550px;
+	height: 35px;
+	width: 200px;
+	background-color: hotpink;
+	border: 5px solid black;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}

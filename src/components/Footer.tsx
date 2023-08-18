@@ -6,6 +6,8 @@ import NewsCard from "./NewsCard";
 import Donate from "./Donate";
 
 import "./Footer.css";
+import Join from "./Join";
+import About from "./About";
 
 const Footer = () => {
 	const navigate = useNavigate();
@@ -15,9 +17,9 @@ const Footer = () => {
 		navigate("/profiles");
 	};
 
-	const navigateHome = () => {
+	const navigateAbout = () => {
 		// 👇️ navigate to /
-		navigate("/home");
+		navigate("/about");
 	};
 
 	const navigateDonate = () => {
@@ -25,31 +27,21 @@ const Footer = () => {
 		navigate("/donate");
 	};
 
-	const navigateShop = () => {
-		// 👇️ navigate to /
-		navigate("/shop");
-	};
-
 	const navigateNews = () => {
 		// 👇️ navigate to /
 		navigate("/newscard");
 	};
 
-	const navigateContact = () => {
+	const navigateJoin = () => {
 		// 👇️ navigate to /
-		navigate("/contact");
+		navigate("/join");
 	};
 	return (
 		<div className="Footer">
 			<nav>
 				<ul>
 					<li>
-						<button className="news-btn" onClick={navigateNews}>
-							PRESS
-						</button>
-					</li>
-					<li>
-						<button className="home-btn" onClick={navigateHome}>
+						<button className="home-btn" onClick={navigateAbout}>
 							ABOUT
 						</button>
 					</li>
@@ -57,6 +49,16 @@ const Footer = () => {
 					<li>
 						<button className="donate-btn" onClick={navigateDonate}>
 							SUPPORT
+						</button>
+					</li>
+					<li>
+						<button className="news-btn" onClick={navigateNews}>
+							PRESS
+						</button>
+					</li>
+					<li>
+						<button className="join-btn" onClick={navigateJoin}>
+							JOIN
 						</button>
 					</li>
 				</ul>
@@ -68,7 +70,7 @@ const Footer = () => {
 export default Footer;
 <Routes>
 	<Route path="/newscard" element={<NewsCard />} />
-
+	<Route path="/donate" element={<Join />} />
 	<Route path="/donate" element={<Donate />} />
-	<Route path="/profile" element={<Profile />} />
+	<Route path="/profile" element={<About />} />
 </Routes>;
