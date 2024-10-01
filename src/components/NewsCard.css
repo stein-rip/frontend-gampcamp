@@ -1,11 +1,46 @@
 .NewsCard {
-	border: 2px solid black;
-	height: 18vh;
-	display: flex;
-	align-items: center;
+	background-color: #faeee3;
+	height: max-content;
+	border-bottom: 5px solid black;
+}
+
+.NewsCard header {
+	font-size: 12px;
+}
+
+.NewsCard h1 {
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.NewsCard h4 {
+	margin-left: 20px;
+}
+
+.NewsCard h6 {
+	margin-top: 2px;
 }
 
 .NewsCard img {
-	width: 80px;
-	height: 80px;
+	width: 380px;
+	height: 350px;
+	object-fit: cover;
+}
+
+.NewsCard .Article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid black;
+	border-bottom: none;
+}
+
+.NewsCard a {
+	text-decoration: none;
+	color: rgb(14, 5, 14);
+	margin-bottom: 20px;
+	font-weight: 600;
+	border: 3px solid black;
+	border-radius: 6px;
+	padding: 4px;
 }

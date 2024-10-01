@@ -8,24 +8,26 @@ import "./App.css";
 
 import Home from "./components/Home";
 import Profile from "./components/Profile";
-import Shop from "./components/Shop";
+
 import NewsCard from "./components/NewsCard";
 import Donate from "./components/Donate";
-import Contact from "./components/Contact";
+import Join from "./components/Join";
+import About from "./components/About";
+import Connect from "./components/Connect";
 
 function App() {
 	return (
 		<div className="App">
 			<Router>
-				{/* <Header /> */}
 				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="*" element={<Profile />} />
 					<Route path="*" element={<Navigate to="/" />} />
-					<Route path="/shop" element={<Shop />} />
+					<Route path="/" element={<Home />} />
+					<Route path="/profile" element={<Profile />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/join" element={<Join />} />
 					<Route path="/newscard" element={<NewsCard />} />
 					<Route path="/donate" element={<Donate />} />
-					<Route path="/contact" element={<Contact />} />
+					<Route path="/connect" element={<Connect />} />
 				</Routes>
 				{/* <Footer /> */}
 			</Router>

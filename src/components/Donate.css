@@ -1,0 +1,73 @@
+.Donate {
+	background: plum;
+	height: 50vh;
+	font-size: 12px;
+	border: 5px solid black;
+}
+
+.Donate header {
+	margin: 20px;
+	padding-top: 20px;
+}
+
+.Donate header h3 {
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+.Donate .Options {
+	position: relative;
+	margin-top: 15vh;
+}
+
+.Donate .Givebutter {
+	position: absolute;
+	left: 225px;
+	top: 10px;
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+	background-color: black;
+	border: 5px solid white;
+	font-size: larger;
+	font-weight: 600;
+	color: white;
+	height: 50px;
+	width: 100px;
+	border-radius: 12px;
+}
+
+.Donate .Shop {
+	position: absolute;
+
+	top: 10px;
+	background-color: black;
+	border: 5px solid white;
+	font-size: larger;
+	font-weight: 600;
+	color: white;
+
+	height: 50px;
+	width: 100px;
+	border-radius: 12px;
+}
+.Donate .WishList {
+	position: absolute;
+	left: 110px;
+	top: -50px;
+	background-color: black;
+	border: 5px solid white;
+	font-size: larger;
+	font-weight: 600;
+	color: white;
+
+	height: 50px;
+	width: 100px;
+	border-radius: 12px;
+}
+.Donate a {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,11 +1,14 @@
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Profile from "./Profile";
-import Home from "./ShoutHome";
+
 import NewsCard from "./NewsCard";
-import Contact from "./Contact";
+
 import Donate from "./Donate";
-import Shop from "./Shop";
+
 import "./Footer.css";
+import Join from "./Join";
+import About from "./About";
+import Connect from "./Connect";
 
 const Footer = () => {
 	const navigate = useNavigate();
@@ -15,9 +18,9 @@ const Footer = () => {
 		navigate("/profiles");
 	};
 
-	const navigateHome = () => {
+	const navigateAbout = () => {
 		// 👇️ navigate to /
-		navigate("/home");
+		navigate("/about");
 	};
 
 	const navigateDonate = () => {
@@ -25,47 +28,47 @@ const Footer = () => {
 		navigate("/donate");
 	};
 
-	const navigateShop = () => {
-		// 👇️ navigate to /
-		navigate("/shop");
-	};
-
 	const navigateNews = () => {
 		// 👇️ navigate to /
 		navigate("/newscard");
 	};
 
-	const navigateContact = () => {
+	const navigateJoin = () => {
 		// 👇️ navigate to /
-		navigate("/contact");
+		navigate("/join");
+	};
+	const navigateConnect = () => {
+		// 👇️ navigate to /
+		navigate("/connect");
 	};
 	return (
 		<div className="Footer">
 			<nav>
 				<ul>
 					<li>
-						<button className="home-btn" onClick={navigateHome}>
-							Members
+						<button className="home-btn" onClick={navigateAbout}>
+							ABOUT
+						</button>
+					</li>
+
+					<li>
+						<button className="donate-btn" onClick={navigateDonate}>
+							SUPPORT
 						</button>
 					</li>
 					<li>
 						<button className="news-btn" onClick={navigateNews}>
-							News
+							PRESS
 						</button>
 					</li>
 					<li>
-						<button className="shop-btn" onClick={navigateShop}>
-							Shop
+						<button className="join-btn" onClick={navigateJoin}>
+							JOIN
 						</button>
 					</li>
 					<li>
-						<button className="contact-btn" onClick={navigateContact}>
-							Info
-						</button>
-					</li>
-					<li>
-						<button className="donate-btn" onClick={navigateDonate}>
-							Donate
+						<button className="join-btn" onClick={navigateConnect}>
+							CONNECT
 						</button>
 					</li>
 				</ul>
@@ -76,10 +79,9 @@ const Footer = () => {
 
 export default Footer;
 <Routes>
-	<Route path="/home" element={<Home />} />
 	<Route path="/newscard" element={<NewsCard />} />
-	<Route path="/contact" element={<Contact />} />
-	<Route path="/shop" element={<Shop />} />
+	<Route path="/donate" element={<Join />} />
 	<Route path="/donate" element={<Donate />} />
-	<Route path="/profile" element={<Profile />} />
+	<Route path="/profile" element={<About />} />
+	<Route path="/connect" element={<Connect />} />
 </Routes>;

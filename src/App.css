@@ -1,5 +1,17 @@
 .App {
 	margin: 0;
-	width: 100vw;
+	display: flex;
+	justify-content: center;
+	width: 50vw;
+}
+.App {
+	background-image: url("https://media.tenor.com/y8sVP71-p6wAAAAC/progress-pride-progressive-pride.gif");
 	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+}
+
+.App p {
+	position: absolute;
+	bottom: 30px;
 }
